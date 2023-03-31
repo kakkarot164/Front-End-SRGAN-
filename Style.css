@@ -1,18 +1,4 @@
-/* .result {
-	margin-top: 50px;
-	display: none;
-}
-
-.result h2 {
-	margin-bottom: 20px;
-}
-
-.result img {
-	max-width: 100%;
-	margin-top: 20px;
-} */
-
-/* Set a background gradient */
+/* Setting background gradient */
 body {
     background: linear-gradient(to bottom, #4b6cb7, #182848);
     background-repeat: no-repeat;
@@ -20,7 +6,7 @@ body {
     background-size: cover;
   }
   
-  /* Center the form container */
+  /* Centering the form container */
   form {
     max-width: 500px;
     margin: 0 auto;
