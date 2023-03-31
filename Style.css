@@ -1,0 +1,91 @@
+/* .result {
+	margin-top: 50px;
+	display: none;
+}
+
+.result h2 {
+	margin-bottom: 20px;
+}
+
+.result img {
+	max-width: 100%;
+	margin-top: 20px;
+} */
+
+/* Set a background gradient */
+body {
+    background: linear-gradient(to bottom, #4b6cb7, #182848);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  /* Center the form container */
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+  }
+  
+  /* Style the label for the select element */
+  label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Style the select element */
+  select {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the options in the select element */
+  option {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Style the selected option in the select element */
+  option:checked {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Style the submit button on hover */
+  input[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  
+  /* Style the page title */
+  h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 48px;
+    text-shadow: 2px 2px #333;
+  }
