@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SRGAN</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 offset-md-3">
+				<h1>SRGAN</h1>
+				<p class="text-center">Super-Resolution Generative Adversarial Network</p>
+				<form>
+					<!-- files selection from user-end -->
+					<div class="form-group">
+						<label for="imageInput">Upload an image</label>
+						<input type="file" class="form-control-file" id="imageInput">
+					</div>
+					<!-- Creating Option for scrolling form -->
+					<div class="form-group">
+						<label for="processingType">Processing type</label>
+						<select class="form-control" id="processingType">
+							<option>Upscale</option>
+							<option>Sharpen</option>
+							<!-- <option>Denoise</option> -->
+						</select>
+					</div>
+					<button type="submit" class="btn btn-primary">Process</button>
+				</form>
+				<!-- <div class="result">
+					<h2>Result</h2>
+					<img id="outputImage" class="img-fluid">
+				</div> -->
+			</div>
+		</div>
+	</div>
+	<!-- <script src="script.js"></script> -->
+</body>
+</html>
+
+
+
+
+
